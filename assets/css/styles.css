@@ -397,7 +397,7 @@ header{
 }
 
 .skills__icon{
-    margin-right: var(--mb-0-75),;
+    margin-right: .75rem;
 }
 
 .skills__title{
@@ -412,6 +412,11 @@ header{
 .skills__arrow{
     margin-left: auto;
     transition: .4s;
+}
+
+.skills__list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
 }
 
 .skills__titles{
@@ -491,7 +496,7 @@ header{
 
 .skills__open .skills__list{
     height: max-content;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: 2.5rem;
 }
 
 .skills__open .skills__arrow{
