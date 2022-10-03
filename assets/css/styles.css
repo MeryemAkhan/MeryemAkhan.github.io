@@ -563,5 +563,18 @@ header{
     transform: translate(6px, -7px);
 }
 
+.qualification [data-content]{
+    display: none;
+}
 
+.qualification [data-content]{
+    display: none;
+}
 
+.qualification__active[data-content]{
+    display: block;
+}
+
+.qualification__button .qualification__active{
+    color: var(--first-color);
+}
