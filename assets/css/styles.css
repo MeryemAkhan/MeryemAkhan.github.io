@@ -682,3 +682,10 @@ header{
     color: var(--first-color);
     margin-right: var(--mb-0-25);
 }
+
+/*Active MODAL*/
+
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}
