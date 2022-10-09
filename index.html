@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <link rel="stylesheet" href="" >
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <link rel="stylesheet" href="assets/css/styles.css" >
 
@@ -546,13 +546,76 @@
                     </div>
                 </div>
             </div>
-
         </div>
+    </section>
 
+    <!--================ PORTFOLIO ================-->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--================ PORTFOLIO 1================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/portfolio.png" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Modern Website</h3>
+                        <p class="portfolio__description">Website adaptable to all devices, with iu components 
+                            and animated interactions.</p>
+                        <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--================ PORTFOLIO 2================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">2D Mario Game</h3>
+                        <p class="portfolio__description">An amazing 2D Mario game made with c#.</p>
+                        <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--================ PORTFOLIO 3================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/MOBILE.png" alt="" class="portfolio1__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Mobile Application</h3>
+                        <p class="portfolio__description">Mobile application that creates daily food menu with.</p>
+                        <a href="#" class="button button--flex button--small portfolio__button">
+                            Demo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add Arrows-->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination-->
+            <div class="swiper-pagination"></div>
+        </div>
     </section>
 
 
 
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <script src="assets/js/main.js"></script>
     
