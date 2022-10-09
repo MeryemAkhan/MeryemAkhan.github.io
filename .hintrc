@@ -10,6 +10,12 @@
           "-ms-touch-action"
         ]
       }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
     ]
   }
 }
