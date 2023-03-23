@@ -523,11 +523,11 @@ header{
 }
 
 .skills__js{
-    width: 70%;
+    width: 60%;
 }
 
 .skills__react{
-    width: 60%;
+    width: 40%;
 }
 
 .skills__firebase{
@@ -535,23 +535,23 @@ header{
 }
 
 .skills__java{
-    width: 75%;
+    width: 60%;
 }
 
 .skills__php{
-    width: 50%;
+    width: 40%;
 }
 
 .skills__c{
-    width: 70%;
+    width: 90%;
 }
 
 .skills__figma{
-    width: 80%;
+    width: 50%;
 }
 
 .skills__sketch{
-    width: 75%;
+    width: 65%;
 }
 
 .skills__photoshop{
